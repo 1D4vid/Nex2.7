@@ -193,7 +193,7 @@ return function(env)
     Library:CreateButton(TeleportPage, "TP Beast Cave", function()
         local char = LocalPlayer.Character
         if char and char:FindFirstChild("HumanoidRootPart") then
-            char.HumanoidRootPart.CFrame = CFrame.new(-216.5, 1.5, -223.5)
+            char.HumanoidRootPart.CFrame = CFrame.new(-269.5, -13.5, -365.5)
         end
     end)
 
